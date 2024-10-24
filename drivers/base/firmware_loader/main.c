@@ -447,7 +447,6 @@ static int fw_decompress_xz(struct device *dev, struct fw_priv *fw_priv,
 #define PATH_SIZE		255
 static char fw_path_para[CUSTOM_FW_PATH_COUNT][PATH_SIZE];
 static const char * const fw_path[] = {
-	fw_path_para,
         fw_path_para[0],
 	fw_path_para[1],
 	fw_path_para[2],
